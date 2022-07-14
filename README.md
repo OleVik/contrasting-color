@@ -39,6 +39,10 @@ yarn install
 yarn test
 ```
 
+## Acknowledgements
+
+Inspiration taken from ["Generating accessible color combinations for the web"](https://dev.to/kartiknair/generating-accessible-color-combinations-for-the-web-4al7).
+
 ## License
 
 Copyright © 2022 [Ole Vik](https://github.com/OleVik), [MIT](https://github.com/OleVik/contrasting-color/blob/master/LICENSE)-licensed.
