@@ -1,0 +1,42 @@
+{
+  "name": "@olevik/contrasting-color",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Generate contrasting color between two colors according to ratio.",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --silent=false"
+  },
+  "keywords": [
+    "contrast",
+    "color",
+    "colors",
+    "wcag",
+    "accessibility"
+  ],
+  "author": {
+    "name": "Ole Vik",
+    "email": "git@olevik.net"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/olevik/contrasting-color",
+  "bugs": "https://github.com/olevik/contrasting-color/issues",
+  "repository": {
+    "url": "git+https://github.com/olevik/contrasting-color.git",
+    "type": "git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "exports": "./index.js",
+  "dependencies": {
+    "color": "^4.2.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^28.1.3",
+    "jest-cli": "^28.1.3"
+  },
+  "engines": {
+    "node": ">=14.16"
+  }
+}
