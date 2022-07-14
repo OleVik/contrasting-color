@@ -20,7 +20,10 @@
   "license": "MIT",
   "homepage": "https://github.com/olevik/contrasting-color",
   "bugs": "https://github.com/olevik/contrasting-color/issues",
-  "repository": "git://github.com/olevik/contrasting-color.git",
+  "repository": {
+    "url": "git+https://github.com/olevik/contrasting-color.git",
+    "type": "git"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
